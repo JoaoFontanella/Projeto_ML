@@ -22,10 +22,13 @@ Projeto completo com todos os codigos para identificar qual é o melhor modelo p
 [Modelo Completo em py](Modelo_Completo/Projeto_Final.ipynb) <br>
 ou <br>
 [Modelo Completo em ipynb](Modelo_Completo/Projeto_Final.ipynb)
-
+<br>
 Para a parte de interface-web do usuario, foi refeito o codigo em py utilizando o melhor modelo identificado no [Modelo Completo](Modelo_Completo/Projeto_Final.ipynb). <br>
 Porem antes de ser rodado o codigo é necessario instalar as seguintes extensões e bibliotecas:
 - **Python**: Extensão do pyhton dentro do VSCODE e o python na propria maquina
 - **Bibliotecas**: Serão necessarias algumas bibliotecas para o projeto rodar, para facilitar isso foi deixado um arquivo chamando requirements.txt, que executando o comando "pip install -r requirements.txt" todas serão instaladas automaticamente.
 
-[Modelo com interface WEB](app.py)
+Ao executar o [Modelo com interface WEB](app.py) aparecera a seguinte tela com o link para a interface web:
+![image](https://github.com/user-attachments/assets/7415749d-58dc-4016-8c2e-12b7ea92e997) <br>
+Abrindo o link concedido o usuario tera acesso a web para fazer a predição usando o melhor modelo.
+

@@ -10,3 +10,7 @@ Este é um projeto para prever os custos de seguro usando um modelo de aprendiza
 - **NumPy**: Biblioteca para manipulação de arrays.
 - **HTML/CSS/JS**: Usado para a construção da interface web do usuário.
 
+## Foi usado o seguinte dataset
+https://raw.githubusercontent.com/stedy/Machine-Learning-with-R-datasets/master/insurance.csv <br>
+ou para melhor visualizção <br>
+https://github.com/stedy/Machine-Learning-with-R-datasets/blob/master/insurance.csv

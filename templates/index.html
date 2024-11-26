@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão de Custo de Seguro</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Previsão de Custo de Seguro</h1>
+        <form id="insurance-form">
+            <label for="age">Idade:</label>
+            <input type="input" id="age" name="age" required>
+
+            <label for="sex">Sexo:</label>
+            <select id="sex" name="sex" required>
+                <option value="0">Feminino</option>
+                <option value="1">Masculino</option>
+            </select>
+
+            <label for="bmi">IMC (Índice de Massa Corporal):</label>
+            <input type="input" step="0.1" id="bmi" name="bmi" required>
+
+            <label for="children">Número de Filhos:</label>
+            <input type="input" id="children" name="children" required>
+
+            <label for="smoker">Fumante:</label>
+            <select id="smoker" name="smoker" required>
+                <option value="0">Não</option>
+                <option value="1">Sim</option>
+            </select>
+
+            <label for="region">Região:</label>
+            <select id="region" name="region" required>
+                <option value="0">Sudeste/Southeast</option>
+                <option value="1">Nordeste/Northeast</option>
+                <option value="2">Sudoeste/Southwest</option>
+                <option value="3">Noroeste/Northwest</option>
+            </select>
+            <button type="submit">Realizar Previsão</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>

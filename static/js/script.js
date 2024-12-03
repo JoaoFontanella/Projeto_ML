@@ -20,7 +20,7 @@ document.getElementById("insurance-form").addEventListener("submit", async (even
         });
 
         const result = await response.json();
-        document.getElementById("result").textContent = `Previsão de Custo: Charges ${result.prediction.toFixed(2)}`;
+        document.getElementById("result").textContent = `Charges: ${result.prediction.toFixed(2)}`;
     } catch (error) {
         console.error("Erro ao fazer a previsão:", error);
         document.getElementById("result").textContent = "Erro ao calcular a previsão.";
